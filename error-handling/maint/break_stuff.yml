@@ -2,14 +2,14 @@
   connection: winrm
   tasks:
     - name: "Simulate connection failure"
-      lineinfile:
+      win_lineinfile:
         path: "C:\\Windows\\System32\\drivers\\etc\\hosts"
         line: "127.0.0.1 bit.ly"
       tags:
         - service_down
         
     - name: "Restore service"
-      lineinfile:
+      win_lineinfile:
         path: "C:\\Windows\\System32\\drivers\\etc\\hosts"
         line: "127.0.0.1 bit.ly"
         state: absent
