@@ -1,8 +1,8 @@
 - name: Configure web.config for SQL connection string
   hosts: windows
   vars:
-    ip_address: 10.0.0.1
-    database_name: mydatabase
+    ip_address: 10.0.2.1
+    database_name: mydatabasedev
     db_username: sqluser
     db_password: Pa$$w0rd
   tasks:
@@ -10,4 +10,3 @@
       template:
         src: templates/web.config.j2
         dest: c:/inetpub/wwwroot/web.config
-        
