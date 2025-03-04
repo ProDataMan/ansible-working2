@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: windows
   connection: local
   become: yes
   become_user: root
