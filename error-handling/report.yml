@@ -5,7 +5,7 @@
       block:
         - win_get_url:
             url: https://bit.ly/3dtJtR7
-            dest: 'C:\gitrepos\ansible-working\error-handling\transaction_list'
+            dest: 'C:\gitrepos\ansible-working2\error-handling\transaction_list'
         - debug: msg="File downloaded"
       rescue:
         - debug: msg="Site appears to be down.  Try again later."
