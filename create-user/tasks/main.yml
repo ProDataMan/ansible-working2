@@ -7,6 +7,5 @@
     state: present
     groups:
       - Administrators
-  become: yes  
   ignore_errors: yes
   register: result
