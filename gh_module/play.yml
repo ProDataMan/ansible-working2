@@ -9,8 +9,8 @@
     - name: Create a github Repo
       github_repo:
         github_auth_key: "..."
-        username: "ProDataMan"
         name: "Hello-World"
+        username: "ProDataMan"
         description: "This is your first repository"
         private: yes
         has_issues: no
