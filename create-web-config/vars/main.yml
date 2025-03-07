@@ -1,2 +1,6 @@
 ---
 # vars file for create-web-config
+    ip_address: 10.0.2.1
+    database_name: mydatabasedev
+    db_username: sqluser
+    db_password: Pa$$w0rd
