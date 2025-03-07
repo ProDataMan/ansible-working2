@@ -1,6 +1,5 @@
 ---
 # tasks file for create-web-config
----
 - name: create web.config file
   template:
     src: templates/web.config.j2
