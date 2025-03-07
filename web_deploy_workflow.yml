@@ -1,4 +1,4 @@
 - name: Update Web.Config for DB
-  hosts: all
+  hosts: windows
   roles:
     - create-web-config
